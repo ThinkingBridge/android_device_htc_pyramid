@@ -27,9 +27,6 @@
 # inherit from common msm8660
 -include device/htc/msm8660-common/BoardConfigCommon.mk
 
-# Audio
-BOARD_HAVE_HTC_AUDIO := true
-
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := pyramid
 
@@ -40,9 +37,6 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=pyramid no_console_
 
 # Kernel [Build]
 TARGET_KERNEL_CONFIG := pyramid_defconfig
-TARGET_KERNEL_SOURCE := kernel/htc/msm8660
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro
-BUILD_KERNEL := true
 
 # Bluetooth/Wifi
 -include device/htc/msm8660-common/bcmdhd.mk
