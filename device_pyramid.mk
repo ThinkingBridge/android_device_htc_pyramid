@@ -113,13 +113,6 @@ PRODUCT_COPY_FILES += \
     device/htc/pyramid/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     device/htc/pyramid/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
-## misc
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.setupwizard.enable_bypass=1 \
-    dalvik.vm.lockprof.threshold=500 \
-    ro.com.google.locationfeatures=1 \
-    dalvik.vm.dexopt-flags=m=y
-
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/pyramid/pyramid-vendor.mk)
 
