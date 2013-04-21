@@ -18,6 +18,7 @@
 # common msm8660 configs
 $(call inherit-product, device/htc/msm8660-common/msm8660.mk)
 
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
