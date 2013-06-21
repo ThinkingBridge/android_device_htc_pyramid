@@ -29,15 +29,14 @@ ro.ril.hsxpa=3
 ro.ril.set.mtu1472=1
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=160
-<<<<<<< .merge_file_pN0IwJ
-=======
+
 #
 # Power Saving/Sleep
 #
 ro.ril.disable.power.collapse=0
 pm.sleep_mode=1
 #
->>>>>>> .merge_file_76daVJ
+
 # Misc
 #
 persist.sys.usb.config=mass_storage,adb
